@@ -39,7 +39,7 @@ function filterByQuery(query, animalsArray) {
     filteredResults = filteredResults.filter(animal => animal.name === query.name);
   }
   // return the filtered results:
-  return filteredResults;
+  return filteredResults; 
 }
 
 app.get('/api/animals', (req, res) => {
